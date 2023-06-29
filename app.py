@@ -12,5 +12,5 @@ num_days = (future_date - today).days
 
 
 st.title("FranzCountdown")
-st.metric(label="Remaining", value=f"{num_days} days", delta="1 day")
+st.metric(label="Remaining", value=f"{num_days} days", delta="-1 day")
 
