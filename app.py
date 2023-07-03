@@ -12,7 +12,7 @@ future_date = datetime(2024, 3, 1).date()
 
 # Calculate the number of days
 num_days = (future_date - today).days
-days_since_start = future_date - start).days
+days_since_start = (future_date - start).days
 
 
 st.title("FranzCountdown")
